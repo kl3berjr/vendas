@@ -1,0 +1,116 @@
+body {
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*Aqui estamos estilizando a div que contém a imagem da logo e o título do cabeçalho.*/
+.cabeçalho {
+    height: 20vh; /*Altura de 20% da tela visivel do dispositivo.*/
+    display: flex; /*Permite manipular a posição dos elementos internos.*/
+    justify-content: center; /*Alinhando horizotalmente.*/
+    align-items: center; /*Alinhando verticalmente.*/
+    background-color: #FFC0CB;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Aqui estamos estilizando a imagem do cabeçalho.*/
+/*.img_header img {
+    width: 15vw; /*Largura de 5% da tela visivel do dispositivo.*/
+    /*height: 10vh; /*Altura de 10% da tela visivel do dispositivo.
+}
+
+/*Aqui estamos estilizando o espaço no qual ficará o texto do cabeçalho.*/
+.cabeçalho header {
+    height: 10vh; /*Altura de 15% da tela visivel do dispositivo.*/
+    display: flex; /*Permite manipular a posição dos elementos internos.*/
+    margin-left: 10px; /*Margem esquerda externa de 16px.*/
+    justify-content: center; /*Alinhando na horizontal.*/
+    align-items: center; /*Alinhando na vertical.*/
+    color: #FFF;
+    font-family: 'BinggoWood';
+}
+
+/*Aqui estamos estilizando o container da nossa página.*/
+.container {
+    display: flex; /*Permite manipular a posição dos elementos internos.*/
+    flex-wrap:wrap; /*Quebra os elementos um do lado do outro.*/
+    justify-content: space-evenly; /*Distribui os elementos igualmente no espaço disponível.*/
+    gap: 50px; /*Insere um espaço nas linhas e colunas entre os elementos.*/
+    padding: 25px 100px; /*Margens internas superior e inferior de 0, e esquerda e direita de 40px.*/
+    position: relative;
+}
+
+/*Aqui estamos estilizando o elemento que conterá cada imagem.*/
+.gallery_items {
+    width: 20vw; /*Largura de 25% da tela visível.*/
+    height: 51vh; /*Altura de 40% da tela visível.*/
+    border: 5px solid #FFFFFF; /*Borda de 10px com linha sólida e cor branco.*/
+    box-shadow: 2px 2px 2px #000000; /*O 1º é o grau de deslocamento horizontal da sombra, o 2º é o deslocamento vertical, e o 3º é o grau de desfoque da sombra. Cor da sombra é preto.*/
+    flex-grow: 1; /*Todas as imagens devem se redimensionar do mesmo tamanho no espaço disponível.*/
+    text-align: center;
+}
+
+/*Aqui estamos estilizando as imagens.*/
+.gallery_items img {
+    width: 100%; /*Largura de 100% em relação ao elemento pai.*/
+    height: 73%; /*Altura de 100% em relação ao elemento pai.*/
+    object-fit: cover; /*Centraliza a imagem dentro do espaço disponível.*/
+}
+
+/*Aqui estamos estilizando para quando o mouse passar por cima da imagem.*/
+.gallery_items:hover {
+    transform: scale(1.1); /*O tamanho dela aumentará de 1 para 1.1.*/
+    transition: 0.5s; /*Tempo para suavizar a transição do aumento do tamanho da imagem.*/
+}
+
+/* Estilos para o título principal */
+.tex-main {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    height: 1%; /*Altura de 100% em relação ao elemento pai.*/
+    
+}
+
+/* Estilos para a descrição do preço */
+.preco {
+    color: #888;
+    font-size: 15px;
+}
+
+.nota{
+    font-size: 10px;
+}
+
+/*estilização do botão comprar*/
+button {
+    background-color: #FFC0CB;/* Cor de fundo do botão */
+    color: white;/* Cor do texto do botão */
+    font-size: 16px;/* Tamanho da fonte do texto */
+    padding: 10px 20px;/* Espaçamento interno do botão */
+    border: none;/* Espessura, estilo e cor da borda do botão */
+    border-radius: 5px;/* Arredondamento das bordas do botão */
+    cursor: pointer;/* Cursor que aparece quando você passa o mouse sobre o botão */
+}
+
+/* Estilo do botão quando o mouse está sobre ele */
+button:hover {
+    background-color: #f17ea1;
+    color: #FFF;
+}
+/*Aqui estamos estilizando o rodapé da página.*/
+footer {
+    background-color: #FFC0CB;
+    height: 10vh; /*Altura de 10% da tela visível.*/
+    display: flex; /*Permite manipular a posição dos elementos internos.*/
+    font-size: 15px; /*Fonte no tamanho de 11px.*/
+    justify-content: center; /*Alinhando horizontalmente.*/
+    align-items: center; /*Alinhando verticalmente.*/
+    color: #FFF; /*Cor branca.*/
+}
+
+footer a{
+    font-size: 20px;
+    color: #FFF;
+}
