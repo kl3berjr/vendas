@@ -14,11 +14,6 @@ body {
     padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*Aqui estamos estilizando a imagem do cabeçalho.*/
-/*.img_header img {
-    width: 15vw; /*Largura de 5% da tela visivel do dispositivo.*/
-    /*height: 10vh; /*Altura de 10% da tela visivel do dispositivo.
-}
 
 /*Aqui estamos estilizando o espaço no qual ficará o texto do cabeçalho.*/
 .cabeçalho header {
@@ -99,10 +94,28 @@ button:hover {
     background-color: #f17ea1;
     color: #FFF;
 }
+
+/*estilização de contatos*/
+.rodape {
+    background-color: #FFC0CB;
+}
+.rodape h1{
+    font-size: 25px;
+}
+.rodape a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+.rodape a:hover{
+    color: #fff;;
+    text-shadow: 0 0 4px #FFF;
+}
+
 /*Aqui estamos estilizando o rodapé da página.*/
 footer {
     background-color: #FFC0CB;
-    height: 10vh; /*Altura de 10% da tela visível.*/
+    height: 9vh; /*Altura de 10% da tela visível.*/
     display: flex; /*Permite manipular a posição dos elementos internos.*/
     font-size: 15px; /*Fonte no tamanho de 11px.*/
     justify-content: center; /*Alinhando horizontalmente.*/
